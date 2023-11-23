@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Random-Quotes-Machine-RTK/static/css/main.0f6b3a7d.css",
+    "main.js": "/Random-Quotes-Machine-RTK/static/js/main.ae607019.js",
+    "index.html": "/Random-Quotes-Machine-RTK/index.html",
+    "main.0f6b3a7d.css.map": "/Random-Quotes-Machine-RTK/static/css/main.0f6b3a7d.css.map",
+    "main.ae607019.js.map": "/Random-Quotes-Machine-RTK/static/js/main.ae607019.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f6b3a7d.css",
+    "static/js/main.ae607019.js"
+  ]
+}
