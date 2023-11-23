@@ -1,0 +1,32 @@
+// Varibles for Media query
+$breakpoint-mobile: 20rem  // The screen size mobile => 320px
+$breakpoint-tablet: 48rem  // The screen size tablet => 768px
+$breakpoint-desktop: 64rem  // The screen size desktop => 1024px
+
+
+.card
+    margin-top: 15rem //Set the card margin top to 15rem
+    font-size: 1.13rem //Set the card font size to 1.13rem
+    width: 50% //Set the card width to 50%
+.quote-icon
+    margin-bottom: 1rem //Set the quote icon margin bottom to 1rem
+
+.author
+    font-size: 1rem //Set the author font size to 1rem
+
+.blockquote-footer::before
+    content: none //Remove content before blockquote footer
+
+
+
+
+// when the screen size is between >=mobile to <tablet
+@media (min-width: $breakpoint-mobile) and (max-width: $breakpoint-tablet - 1rem ) 
+    .card
+        min-width: 100% //Change the card width between the mobile and tablet viewport to 100%
+
+// when the screen size is between >=tablet to <desktop
+@media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop - 1rem ) 
+    .card
+        min-width: 50% //Change the card width between the tablet and desktop viewport to 50%
+
