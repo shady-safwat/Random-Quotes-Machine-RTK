@@ -5,7 +5,7 @@ export const fetchQuotes = createAsyncThunk(
   "quote/fetchQuotes",
   async (_, thunkAPI) => {
     try {
-      const response = await axios.get("http://localhost:4000/quotes");
+      const response = await axios.get("https://type.fit/api/quotes");
 
       return response.data;
     } catch (error) {
@@ -16,7 +16,7 @@ export const fetchQuotes = createAsyncThunk(
 
 const initialState = {
   quotes: {
-    quote: "Life isn’t about getting and having, it’s about giving and being.",
+    text: "Life isn’t about getting and having, it’s about giving and being.",
     author: "Kevin Kruse"
   },
   loading: false,

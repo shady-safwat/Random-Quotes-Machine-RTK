@@ -73,7 +73,7 @@ function Quotes() {
             <blockquote className="blockquote">
               <Card.Text className="text-center" id="text">
                 <FaQuoteLeft className="quote-icon mx-2" size={14} />
-                {randomQuote[0] && randomQuote[0].quote}
+                {randomQuote[0] && randomQuote[0].text}
               </Card.Text>
 
               <Card.Text className="author text-end" id="author">
@@ -86,7 +86,7 @@ function Quotes() {
             <a
               className="btn btn-dark border border-0"
               href={`https://twitter.com/intent/tweet?text="${
-                randomQuote[0] && randomQuote[0].quote}
+                randomQuote[0] && randomQuote[0].text}
               }by${randomQuote[0] && randomQuote[0].author}&hashtags=animeQuote`}
               target="_blank"
               rel="noreferrer"
