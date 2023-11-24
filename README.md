@@ -1,6 +1,6 @@
 # Build a Random Quote Machine RTK
 
-![1700709713891](image/README/1700709713891.png)
+![1700810868618](image/README/1700810868618.png)
 
 ## Description
 
@@ -30,7 +30,7 @@ User Story #10: I can tweet the current quote by clicking on the #tweet-quotea e
 
 User Story #11: The #quote-box wrapper element should be horizontally centered. Please run tests with browser's zoom level at 100% and page maximized.
 
-## Technology Used
+## Technologies Used
 
 * HTML
 * SASS
@@ -38,20 +38,20 @@ User Story #11: The #quote-box wrapper element should be horizontally centered. 
 * Javascript
 * Jquery
 * React
+* React-Hook
 * React-redux
 * Redux-Toolkit
 * React-bootstrap
 * React-icons
 * Fake API
 * Axios
+* Git
 
 ## Usage
 
 ### `https://type.fit/api/quotes`
 
 Run the Fake API file in the development code.
-
-Open [http://localhost:4000/quotes](http://localhost:4000/quotes) to view it in your browser.
 
 ```db.json
 [
@@ -121,7 +121,6 @@ Open [http://localhost:4000/quotes](http://localhost:4000/quotes) to view it in 
 }
 ]
 ```
-
 
 # Getting Started with Create React App
 
